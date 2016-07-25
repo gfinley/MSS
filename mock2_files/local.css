@@ -1,0 +1,128 @@
+/* CSS Document */
+/* Place any styles unique to your site here */
+
+/*This is the local file for the Sample Template */
+
+[class*="block-grid-"] > li {
+    display: block;
+    float: left;
+    height: auto;
+    padding: 1.5rem 0 0.5rem !important;
+}
+hr {
+    margin: 0 0 1.35714rem !important;
+}
+.medium-icon-spot {
+    background-color: #5d82a3;
+    border-radius: 47px;
+    color: #ffffff;
+    height: 95px;
+    margin: auto;
+    padding-top: 0em;
+    text-align: center;
+    width: 95px;
+}
+
+.medium-icon-spot-caption {
+    color: #5d82a3;
+    font-size: 1.3em;
+    line-height: 100%;
+    padding-left: 0;
+    text-align: center;
+}
+.top-apps .Circlecss {
+    max-height: 100%;
+    padding: 4px 8px;
+}
+.fi-torsos-all::before {
+    content: none;
+}
+.fi-torsos-all img {
+    display: inline-block;
+    vertical-align: sub;
+}
+
+
+.career-examples {
+    margin-bottom:2rem;
+}
+.relative {
+    position:relative;
+}
+.absolute {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+figure.effect-sadie {
+    position:relative;
+    display: inline-block;
+    margin:0;
+    margin-bottom: 13px;
+}
+figure.effect-sadie figcaption::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    bottom:0;
+    content: '';
+    opacity: 0;
+    transform: translate3d(0,50%,0);
+}
+figure.effect-sadie figcaption::before, figure.effect-sadie p {
+    transition: opacity 0.35s, transform 0.35s;
+}
+figure.effect-sadie p {
+    position: absolute;
+	bottom: 0;
+	margin-bottom: 0;
+	left: -999rem;
+	width: 100%;
+	color: #fff;
+	opacity: 1;
+	background-color: #1e5282;
+	transform: translate3d(0,0,0);
+	top: 88px;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-right: 16px;
+    padding-bottom:1.2rem;
+	padding-left: 16px;
+}
+figure.effect-sadie p a {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+ }
+figure.effect-sadie figcaption {
+    height:0;
+}
+figure.effect-sadie:hover p {
+	left:0;
+    top:auto;
+	font-size: 16px;
+}
+figure.effect-sadie h2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 18px 6px;
+	background: rgba(0, 0, 0, 0.76);
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+figure.effect-sadie h2 a{color:#FFF;}
+figure.effect-sadie:hover h2 {
+    left:-999rem;
+}
+figure.effect-sadie img{width:100%;}
